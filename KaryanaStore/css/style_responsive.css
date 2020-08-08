@@ -6,4 +6,13 @@
   .order-now {
     border-right: 1px solid #fff !important;
   }
+  .upload-list button, .upload-list button:hover, .upload-list button:active, .upload-list button:focus  {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    width: 100% !important;
+  }
 }
